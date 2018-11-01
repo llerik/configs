@@ -3374,6 +3374,11 @@
             </node>
          </nodes>
       </param>
+      <param name="NotificationsEnableSuggestion" description="">
+         <type>setting</type>            
+         <enabled>true</enabled>
+         <periodInDays>7</periodInDays>
+      </param>
       <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
          <type>list</type>
          <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
