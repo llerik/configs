@@ -3398,6 +3398,7 @@
                <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
                <newNotificationDesign>true</newNotificationDesign>
                <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+               <enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
                <requestPermissionToReadSMS>
                   <version from="8.5" value="true" />
                </requestPermissionToReadSMS>
@@ -3425,6 +3426,7 @@
                <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
                <newNotificationDesign>true</newNotificationDesign>
                <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+               <enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
                <requestPermissionToReadSMS>
                   <version from="8.5" value="true" />
                </requestPermissionToReadSMS>
@@ -3453,6 +3455,7 @@
                <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
                <newNotificationDesign>true</newNotificationDesign>
                <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+               <enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
                <requestPermissionToReadSMS>
                   <version from="8.5" value="true" />
                </requestPermissionToReadSMS>
@@ -3481,6 +3484,7 @@
                <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
                <newNotificationDesign>true</newNotificationDesign>
                <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+               <enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
                <requestPermissionToReadSMS>
                   <version from="8.5" value="true" />
                </requestPermissionToReadSMS>
@@ -3509,6 +3513,7 @@
                <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
                <newNotificationDesign>true</newNotificationDesign>
                <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+               <enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
                <requestPermissionToReadSMS>
                   <version from="8.5" value="true" />
                </requestPermissionToReadSMS>
