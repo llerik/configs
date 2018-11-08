@@ -2972,278 +2972,463 @@
             <mainScreenSections>
                <credit>
                   <enabled>true</enabled>
-                  <limit>2147483647</limit>
-                  <requestAfterClick>true</requestAfterClick>
+                  <limit>22</limit>
                </credit>
             </mainScreenSections>
-            <mainScreen>
-               <enabled>true</enabled>
-               <limit>2147483647</limit>
-            </mainScreen>
             <successScreen>
                <enabled>true</enabled>
-               <limit>2147483647</limit>
+               <limit>33</limit>
             </successScreen>
          </places>
          <nodes>
             <node id="node0.online.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>777</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>2</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="node1.online.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>777</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>2</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="node2.online.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>false</storiesMainScreenClosed>
-               <storiesMainScreenOpened>true</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>2</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="node3.online.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>2</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="greenfield1.online.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>2</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="mobile.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
-                     <minSupportedVersionApp>9.0.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <limit>77</limit>
+                     <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>365</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="ift-node1.testonline.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>365</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="ift-node2.testonline.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>false</storiesMainScreenClosed>
-               <storiesMainScreenOpened>true</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>365</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="ift-node1-mp.testonline.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>true</storiesMainScreenClosed>
-               <storiesMainScreenOpened>false</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>365</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
             <node id="ift-node2-mp.testonline.sberbank.ru">
                <abTestingSuccessScreenEnabled>false</abTestingSuccessScreenEnabled>
                <defaultDesignSuccessScreen>b</defaultDesignSuccessScreen>
-               <storiesMainScreenMVP>
-                  <enabled>false</enabled>
-                  <limit>2147483647</limit>
-               </storiesMainScreenMVP>
-               <storiesMainScreenClosed>false</storiesMainScreenClosed>
-               <storiesMainScreenOpened>true</storiesMainScreenOpened>
                <places>
                   <mainScreenSections>
                      <credit>
-                        <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                        <enabled>true</enabled>
+                        <limit>22</limit>
+                        <backendTipsBroker>true</backendTipsBroker>
                      </credit>
                   </mainScreenSections>
                   <storiesMainScreen>
                      <enabled>true</enabled>
-                     <limit>2147483647</limit>
+                     <limit>77</limit>
                      <minSupportedVersionApp>8.6.0</minSupportedVersionApp>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <backendTipsBroker>true</backendTipsBroker>
+                     <close>true</close>
+                     <open>false</open>
+                     <title>Рекомендуем</title>
+                     <no_offers_text>Для вас пока нет рекомендаций, но они скоро появятся</no_offers_text>
+                     <lifetimeOfCache>5</lifetimeOfCache>
+                     <cache>true</cache>
+                     <lifetimeOfCachePermissions>7</lifetimeOfCachePermissions>
+                     <cachePermissions>false</cachePermissions>
                   </storiesMainScreen>
                   <successScreen>
-                     <contentSourceTipsBroker>true</contentSourceTipsBroker>
+                     <enabled>true</enabled>
+                     <limit>33</limit>
+                     <backendTipsBroker>true</backendTipsBroker>
                   </successScreen>
+                  <paymentsHistoryScreen>
+                     <enabled>true</enabled>
+                     <limit>1</limit>
+                     <formNames>
+                        <formName>ExtCardTransferIn</formName>
+                        <formName>ExtCardOtherIn</formName>
+                        <formName>ExtCardCashIn</formName>
+                     </formNames>
+                     <minSumRUB>500</minSumRUB>
+                     <maxSumRUB>100000000</maxSumRUB>
+                     <termDays>365</termDays>
+                     <backendTipsBroker>true</backendTipsBroker>
+                  </paymentsHistoryScreen>
                </places>
             </node>
          </nodes>
@@ -3375,7 +3560,7 @@
          </nodes>
       </param>
       <param name="NotificationsEnableSuggestion" description="">
-         <type>setting</type>            
+         <type>setting</type>
          <enabled>true</enabled>
          <periodInDays>7</periodInDays>
       </param>
