@@ -4502,6 +4502,10 @@
                </cardNotificationTapShowsDialog>
                <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
                <snackBarDisplayTime>2</snackBarDisplayTime>
+               <operationTypeList>D4,J</operationTypeList>   
+               <notificationShowWithOperationType>
+               		<version from="9.1" value="true"/>
+               </notificationShowWithOperationType>
             </node>
             <node id="ift-node2.testonline.sberbank.ru">
                <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4549,6 +4553,10 @@
                </cardNotificationTapShowsDialog>
                <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
                <snackBarDisplayTime>2</snackBarDisplayTime>
+               <operationTypeList>D4,J</operationTypeList>   
+               <notificationShowWithOperationType>
+               		<version from="9.1" value="true"/>
+               </notificationShowWithOperationType>
             </node>
             <node id="ift-node1-mp.testonline.sberbank.ru">
                <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4596,6 +4604,10 @@
                </cardNotificationTapShowsDialog>
                <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
                <snackBarDisplayTime>2</snackBarDisplayTime>
+               <operationTypeList>D4,J</operationTypeList>   
+               <notificationShowWithOperationType>
+               		<version from="9.1" value="true"/>
+               </notificationShowWithOperationType>
             </node>
             <node id="ift-node2-mp.testonline.sberbank.ru">
                <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4643,6 +4655,10 @@
                </cardNotificationTapShowsDialog>
                <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
                <snackBarDisplayTime>2</snackBarDisplayTime>
+               <operationTypeList>D4,J</operationTypeList>   
+               <notificationShowWithOperationType>
+               		<version from="9.1" value="true"/>
+               </notificationShowWithOperationType>
             </node>
             <node id="node4.online.sberbank.ru">
                <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
